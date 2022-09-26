@@ -1,8 +1,12 @@
 .main_app {
   display: flex;
-  width: 50vw;
   padding-bottom: 2rem;
   transition: all .3s;
+  justify-content: center;
+
+  @media (min-width: 992px) {
+    max-width: 55vw;
+  }
 
   h1{
     color: #aaaaaa;

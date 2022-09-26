@@ -67,7 +67,7 @@ const CalcBody = () => {
                     <ul>
                         {inputArray && inputArray.map((val, index) => (
                             <li key={index} id={'id' + index}>
-                                <div className="row mb-2">
+                                <div className="row mb-3 mb-md-2">
                                     <div className="col-sm-2">
                                         <select
                                             className="form-select"
