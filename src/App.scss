@@ -1,0 +1,62 @@
+.main_app {
+  display: flex;
+  width: 50vw;
+
+  h1{
+    color: #9b9b9b;
+    text-align: center;
+  }
+}
+
+.calc{
+  &_header {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+  }
+
+  &_body{
+    display: flex;
+    background: #2a2a2a;
+    margin: auto;
+    min-height: 70vh;
+    border: 1px solid #9b9b9b;
+    border-radius: 30px;
+    padding: 1.5rem;
+
+    ul{
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &_btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    button{
+      min-width: 80px;
+    }
+  }
+}
+
+
+// Overwrite the default bootstrap styles
+
+.form-control{
+  background-color: #2a2a2a !important;
+  color: #cbcbcb !important;
+
+  &:disabled{
+    background-color: #5d5d5d !important;
+    color: #8f8f8f !important;
+  }
+}
+
+.form-select{
+  background-color: #2a2a2a;
+  color: #cbcbcb
+}
