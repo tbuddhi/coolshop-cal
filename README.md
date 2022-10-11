@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Demo](https://stupendous-gingersnap-2d5066.netlify.app/).
 
 ## Available Scripts
 
